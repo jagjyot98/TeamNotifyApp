@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WearNotifyApp</string>
+    <string name="channel_name">ChannelTeam</string>
+    <string name="channel_description">Team Notification Channel</string>
+    <string name="notification_title">Don\'t Forget</string>
+    <string name="notification_text">Your meeting with the team is at 2:00 PM. Be there on time!</string>
+    <string name="company_title">Webymax</string>
+    <string name="company_subtitle">Web and Mobile App Development</string>
+    <string name="notification_details">Notification Details</string>
+    <string name="attendees_title">Attendees:</string>
+    <string name="location_title">Meeting Location:</string>
+    <string name="agenda_title">Meeting Agenda:</string>
+</resources>
