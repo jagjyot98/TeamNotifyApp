@@ -23,13 +23,14 @@ public class NotificationdetailsActivity extends AppCompatActivity {
     }
 
     private void init(){                //retrieving Notification details from Pending intent
-        Log.i("info","In init");
         Intent notificationIntent = getIntent();
         String attendees = notificationIntent.getStringExtra("Attendees");
         String locatiom = notificationIntent.getStringExtra("Location");
-        Log.i("info","Attendees");
+        String agenda = notificationIntent.getStringExtra("Agenda");
+
         detailsBinding.txtAttendees.setText(attendees);
         detailsBinding.txtLocation.setText(locatiom);
+        detailsBinding.txtAgenda.setText(agenda);
     }
 
 

@@ -26,6 +26,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <receiver android:name=".MobileActionReciever"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="MOBILE_ACTION" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

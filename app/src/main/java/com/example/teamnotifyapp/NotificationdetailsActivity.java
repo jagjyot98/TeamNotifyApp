@@ -27,8 +27,11 @@ public class NotificationdetailsActivity extends AppCompatActivity {
         Intent notificationIntent = getIntent();
         String attendees = notificationIntent.getStringExtra("Attendees");
         String locatiom = notificationIntent.getStringExtra("Location");
+        String agenda = notificationIntent.getStringExtra("Agenda");
+
         Log.i("info","Attendees");
         detailsBinding.txtAttendees.setText(attendees);
         detailsBinding.txtLocation.setText(locatiom);
+        detailsBinding.txtAgenda.setText(agenda);
     }
 }
